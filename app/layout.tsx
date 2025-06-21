@@ -4,6 +4,7 @@ import "./globals.css";
 import { Inter, Sora } from "next/font/google";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -25,7 +26,10 @@ export default function RootLayout({
        <div className="z-50 relative">
         <Navbar  />
         </div> 
-        <main className="mt-[-4.8rem]">{children}</main>
+        <main className="mt-[-4.8rem]">{children}
+          <Analytics />
+          <SpeedInsights />
+        </main>
         <Footer />
       </body>
     </html>
