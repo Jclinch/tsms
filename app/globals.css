@@ -208,3 +208,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* style 3 */
+.card-glass {
+  background: rgba(47, 82, 38, 0.45);
+  backdrop-filter: blur(12px);
+}
+/* .card-glass .content::before {
+  content:"";
+  position:absolute;
+  left:0; top:50%;
+  width:4px; height:40px;
+  background:white;
+  filter: blur(20px);
+  opacity:0;
+  transition: opacity .3s;
+} */
+.card-glass:hover .content::before {
+  opacity:1;
+}
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

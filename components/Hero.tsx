@@ -48,7 +48,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="mt-1 text-base md:text-xl font-light text-white md:mt-[-70px]"
+          className=" text-xs md:text-xl font-light text-white md:mt-[-70px]"
         >
           NOT AN AGENCY
         </motion.p>
@@ -58,10 +58,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="mt-3"
+          className="mt-1"
         >
           <p
-            className="text-sm md:text-xl font-light text-white md:ml-[-300px] md:mt-[28px]"
+            className="text-xs md:text-xl font-light text-white md:ml-[-300px] md:mt-[18px]"
             style={{
               color: "#E2E525",
               textShadow: "0 0 10px #E2E525, 0 0 2px #E2E525",
@@ -70,7 +70,7 @@ export default function Hero() {
             WE ARE
           </p>
           <h2
-            className="text-4xl md:text-6xl font-extrabold text-[#E2E525] md:mt-[-58px] md:ml-[100px]"
+            className="text-4xl md:text-6xl font-extrabold text-[#E2E525] md:mt-[-58px] md:ml-[130px]"
             style={{
               textShadow: "0 0 10px #E2E525, 0 0 2px #E2E525",
             }}

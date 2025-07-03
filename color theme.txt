@@ -1,10 +1,11 @@
 🎨 Color Theme Extraction
 Role	Color Code	Usage Description
-Primary Background	#1A3E1B	Deep green used for the main background
-Secondary Background	#2F5226	Lighter green gradient part of the background
-Button	#E2E525	Bright yellow-green used in the small top-left square
-Accent	#B7CC00	Slightly darker variation of the button color
-Hover	#D8E927	Lighter, more vivid hover shade of yellow-green
+primary: "#1A3E1B",       // Deep green (background)
+secondary: "#2F5226",     // Lighter green
+button: "#E2E525",        // Bright yellow-green
+accent: "#B7CC00",        // Slightly darker yellow-green
+hover: "#D8E927",         // Lighter hover yellow-green
+
 Header Text	#FFFFFF	White color used for the number "01"
 Sub Header Text	#C6D900	Used for “Home Page” text
 Description Text	#E5E5E5	Light gray (useful for body/paragraphs)

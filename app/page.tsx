@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <TrustedBy />
 
-      <div
+      {/* <div
         style={{
           position: "relative",
           width: "100%",
@@ -28,11 +28,11 @@ export default function Home() {
         background: "#002D15",
         opacity: 0.5,
           }}
-        />
+        /> */}
         <div className="pt-8" style={{ position: "relative", zIndex: 2 }}>
           <WhatWeDo />
         </div>
-      </div>
+      {/* </div> */}
         <Contact />
     </>
   );

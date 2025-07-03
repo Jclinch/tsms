@@ -80,10 +80,11 @@ const Feature = ({
   icon: React.ElementType;
   index: number;
 }) => {
-  return (
+ return (
     <div
       className={cn(
-        "flex flex-col lg:border-r  py-10 relative group/feature dark:border-neutral-800",
+        "flex flex-col lg:border-r py-10 relative group/feature dark:border-neutral-800",
+        "backdrop-blur-md bg-white/10 dark:bg-white/5 rounded-xl border border-white/20 dark:border-white/10 shadow-lg",
         (index === 0 || index === 3) && "lg:border-l dark:border-neutral-800",
         index < 3 && "lg:border-b dark:border-neutral-800"
       )}
