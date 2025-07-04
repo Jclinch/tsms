@@ -1,5 +1,5 @@
 'use client';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import Image from 'next/image';
 import Link from 'next/link';
@@ -71,8 +71,8 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="bg-[#E2E525] hover:bg-[#D8E927] transition-all px-6 py-3 text-sm font-semibold rounded-full text-[#1A3E1B] cursor-pointer"
-            >
+              className="bg-[#E2E525] text-[#1A3E1B] px-6 py-2 font-semibold border border-[#E2E525]/40 rounded-[50px] transition-all duration-300 ease-in-out
+              hover:bg-transparent hover:text-[#E2E525] hover:rounded-xl hover:shadow-lg hover:shadow-[#E2E525]/40">
               Send Message
             </button>
           </form>
@@ -80,10 +80,10 @@ export default function Contact() {
           {/* === Contact Info & Socials === */}
           <div className="space-y-10 text-sm">
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <MapPin size={20} className="text-[#E2E525]" />
-                <p>28B Providence Street, Maruwa B/S, Lekki, Lagos</p>
-              </div>
+                <p>100 wwakati adura</p>
+              </div> */}
               <div className="flex items-center gap-3">
                 <Phone size={20} className="text-[#E2E525]" />
                 <p>+234 800 000 0000</p>
