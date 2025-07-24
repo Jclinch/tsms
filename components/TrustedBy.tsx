@@ -14,7 +14,7 @@ const logos = [
 
 export default function TrustedBy() {
   return (
-    <section className="w-full bg-black text-white py-10">
+    <section className="w-full bg-white text-[#1A3E1B] py-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-8 px-6">
         {/* Left text */}
         <div className="min-w-[200px] md:min-w-[250px] text-left">

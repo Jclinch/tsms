@@ -64,7 +64,7 @@ export default function Hero() {
             className="text-xs md:text-xl font-light text-white md:ml-[-300px] md:mt-[18px]"
             style={{
               color: "#E2E525",
-              textShadow: "0 0 10px #E2E525, 0 0 2px #E2E525",
+              textShadow: "0 0 5px #E2E525, 0 0 1px #E2E525",
             }}
           >
             WE ARE

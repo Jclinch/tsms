@@ -90,7 +90,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={20} className="text-[#E2E525]" />
-                <p>info@totalscopeagency.com</p>
+                <p>info@totalscopemarketing.com</p>
               </div>
             </div>
 
