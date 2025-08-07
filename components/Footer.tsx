@@ -33,14 +33,14 @@ const Footer = () => {
 
                 <div>
                     <h3 className="text-subheader font-bold mb-2">Contact</h3>
-                    <p className="text-sm">123 Agency Street, Lagos</p>
-                    <p className="text-sm">+234 812 345 6789</p>
-                    <p className="text-sm">info@tsms.com</p>
+                    <p className="text-sm">10 Wakati Adura Street, River Valley Estate, Ojodu Berger</p>
+                    <p className="text-sm">+234 706 969 2817</p>
+                    <p className="text-sm">info@totalscopemarketing.org</p>
                 </div>
             </div>
 
             <div className="text-center mt-6 text-xs text-gray-400">
-                © {new Date().getFullYear()} TSMS. All rights reserved.
+                © {new Date().getFullYear()} Total Scope Marketing Solutions. All rights reserved.
             </div>
         </footer>
     );
