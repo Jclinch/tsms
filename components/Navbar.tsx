@@ -57,10 +57,10 @@ const Navbar = () => {
             transition={{ duration: 1, delay: 0.6 }}
             className="hidden md:block"
           >
-            <button className="bg-[#E2E525] text-[#1A3E1B] px-6 py-2 font-semibold border border-[#E2E525]/40 rounded-[50px] transition-all duration-300 ease-in-out
+            <Link href="/contact" className="bg-[#E2E525] text-[#1A3E1B] px-6 py-2 font-semibold border border-[#E2E525]/40 rounded-[50px] transition-all duration-300 ease-in-out
               hover:bg-transparent hover:text-[#E2E525] hover:rounded-xl hover:shadow-lg hover:shadow-[#E2E525]/40">
-              Book an Appointment
-            </button>
+              Get In Touch
+            </Link>
           </motion.div>
 
           {/* Mobile Toggle */}

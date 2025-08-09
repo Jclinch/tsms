@@ -55,7 +55,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 
 export const metadata = {
-  title: "TSMS",
+  title: "TotalScope",
   description:
     "Creative marketing solutions that elevate your brand and drive results.",
 };

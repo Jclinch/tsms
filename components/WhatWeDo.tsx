@@ -27,7 +27,7 @@ export function WhatWeDo() {
     {
       title: "DIGITAL",
       description:
-        "Awareness Campaign, Conversion Support, Influencer Partnerships, Reputation Management, Expansion Support",
+        "Awareness Campaign, Conversion Support, Influencer Partnerships, Content Marketing Campaigns, Digital Lead Generation, Reputation Management, Expansion Support",
       icon: IconDeviceMobile,
     },
     {
@@ -39,13 +39,13 @@ export function WhatWeDo() {
     {
       title: "MEDIA",
       description:
-        "Media Strategy, Media Buying, Competitive Media Analysis, Digital Lead Generation, Total Marketing Scope",
+        "Media Strategy, Media Buying, Competitive Media Analysis, Total Marketing Scope",
       icon: IconPhotoVideo,
     },
     {
       title: "ACTIVATION",
       description:
-        "Customer Engagement Events, Content Campaigns, Market Engagement, Growth Initiatives, Visibility Events",
+        "Customer Engagement Events, Market Engagement, Growth Initiatives, Visibility Events",
       icon: IconRocket,
     },
     // {
@@ -132,3 +132,4 @@ const Feature = ({
     </div>
   );
 };
+

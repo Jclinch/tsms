@@ -1,5 +1,6 @@
+//app\contact\page.tsx
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { Mail, Phone } from 'lucide-react';
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
@@ -20,6 +21,18 @@ export default function Contact() {
   const [captchaToken, setCaptchaToken] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState<string>('');
+
+  useEffect(() => {
+    // When a success message is shown, set a timer to clear it after 3 seconds.
+    if (response.startsWith('✅')) {
+      const timer = setTimeout(() => {
+        setResponse('');
+      }, 3000);
+
+      // Cleanup the timer if the component unmounts or if a new response is set.
+      return () => clearTimeout(timer);
+    }
+  }, [response]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -175,7 +188,7 @@ export default function Contact() {
                   Connect with us
                 </p>
                 <div className="flex gap-6 items-center">
-                  <Link href="https://www.linkedin.com/company/totalscope" target="_blank" aria-label="Our LinkedIn page">
+                  <Link href="https://www.linkedin.com/company/total-scope-marketing-solutions/posts/?feedView=all" target="_blank" aria-label="Our LinkedIn page">
                     <FaLinkedin size={24} className="text-white hover:text-[#E2E525] transition" />
                   </Link>
                   <Link href="https://www.instagram.com/totalscope" target="_blank" aria-label="Our Instagram page">

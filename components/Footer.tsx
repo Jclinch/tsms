@@ -9,7 +9,7 @@ const Footer = () => {
                 <div>
                     <h3 className="text-[#C6D900] font-bold mb-2">About Us</h3>
                     <p className="text-sm">
-                        We are a results-driven marketing solutions helping brands grow through innovative digital strategies and creative solutions.
+                        We are a results-driven marketing solutions company helping brands grow through innovative digital strategies and creative solutions.
                     </p>
                 </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
                 <div>
                     <h3 className="text-subheader font-bold mb-2">Contact</h3>
                     <p className="text-sm">10 Wakati Adura Street, River Valley Estate, Ojodu Berger</p>
-                    <p className="text-sm">+234 706 969 2817</p>
+                    <p className="text-sm">+234 706 9692817</p>
                     <p className="text-sm">info@totalscopemarketing.org</p>
                 </div>
             </div>

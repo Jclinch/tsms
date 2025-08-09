@@ -50,7 +50,7 @@ export default function About() {
         <p>
           We are a dynamic Fintech Marketing Consulting Firm specializing in
           comprehensive solutions. Our team, comprised of seasoned
-          professionals, has a proven track record of driving growth in
+          professionals, have a proven track record of driving growth in
           diverse industries.
         </p>
         <p>

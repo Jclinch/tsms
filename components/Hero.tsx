@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Hero() {
@@ -67,10 +68,10 @@ export default function Hero() {
               textShadow: "0 0 5px #E2E525, 0 0 1px #E2E525",
             }}
           >
-            WE ARE
+            WE ARE YOUR
           </p>
           <h2
-            className="text-4xl md:text-6xl font-extrabold text-[#E2E525] md:mt-[-58px] md:ml-[130px]"
+            className="text-4xl md:text-6xl font-extrabold text-[#E2E525] md:mt-[-58px] md:ml-[180px] "
             style={{
               textShadow: "0 0 10px #E2E525, 0 0 2px #E2E525",
             }}
@@ -86,12 +87,13 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.6 }}
           className="mt-10"
         >
-          <button
+          <Link
+            href="/contact"
             className="bg-white/30 text-white px-6 py-2 font-semibold border border-white/40 rounded-[50px] transition-all duration-300 ease-in-out
               hover:bg-button hover:text-white hover:rounded-xl hover:shadow-lg hover:shadow-white/40"
           >
             Get Started
-          </button>
+          </Link>
         </motion.div>
       </div>
     </section>

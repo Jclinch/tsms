@@ -6,10 +6,10 @@ import Image from "next/image";
 const logos = [
   "/logos/interswitch.png",
   "/logos/onafriq.png",
-  "/logos/pearson.png",
+  "/logos/pearsonNew.png",
   "/logos/interswitch.png",
   "/logos/onafriq.png",
-  "/logos/pearson.png",
+  "/logos/pearsonNew.png",
 ];
 
 export default function TrustedBy() {

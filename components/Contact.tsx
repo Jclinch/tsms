@@ -10,7 +10,7 @@ import React from 'react';
             Connect with us
           </h2>
           <div className="flex gap-6">
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#0e76a8] hover:text-[#0a5a7a]">
+            <a href="https://www.linkedin.com/company/total-scope-marketing-solutions/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="text-[#0e76a8] hover:text-[#0a5a7a]">
               <FaLinkedin size={40} />
             </a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-[#3b5998] hover:text-[#2d4373]">
